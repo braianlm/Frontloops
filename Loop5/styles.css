@@ -45,7 +45,6 @@ body{
     display: flex;
     flex-direction: row;
     width:100%;
- 
     justify-content: flex-start;
 }
 
@@ -135,55 +134,11 @@ body{
 /*MEDIA QUERIES*/
 
 /*Mobile*/
-@media (min-width:601px) and (max-width:1099px){
-        body{
-            background-size: auto;
-        }
-
-        .contenedor{
-            width: 70%;
-            padding:5%;
-            margin:15% 0;
-        }
-
-        .itinerario{
-            margin-top:12%;
-            justify-content: space-between;
-            width: 100%;
-        }
-
-        #vuelo{
-            width: 15%;
-            margin:0;
-            text-align: center;
-        }
-
-        #vuelo h6{
-            font-size:1em;
-        }
-
-        #vuelo p{
-            font-size: 1em;
-        }
-        
-
-        #detail h6{
-            font-size:1em;
-        }
-
-        #detail p{
-            font-size: 1em;
-        }
-        
-
-
-}
 
 @media (max-width: 600px){
 
     body{
         background-image: none;
-        
         background-repeat: no-repeat;
         display: flex;
         justify-content: center;
@@ -249,4 +204,48 @@ body{
         margin:0;
         width:50%;
     }
+}
+
+@media (min-width:601px) and (max-width:1099px){
+    body{
+        background-size: auto;
+    }
+
+    .contenedor{
+        width: 70%;
+        padding:5%;
+        margin:15% 0;
+    }
+
+    .itinerario{
+        margin-top:12%;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    #vuelo{
+        width: 15%;
+        margin:0;
+        text-align: center;
+    }
+
+    #vuelo h6{
+        font-size:1em;
+    }
+
+    #vuelo p{
+        font-size: 1em;
+    }
+    
+
+    #detail h6{
+        font-size:1em;
+    }
+
+    #detail p{
+        font-size: 1em;
+    }
+    
+
+
 }
