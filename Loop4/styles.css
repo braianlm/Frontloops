@@ -240,3 +240,49 @@ hr{
     
 
 }
+
+/*MEDIA QUERIES*/
+
+/*Mobile*/
+@media (max-width: 599px){
+
+    .container{
+        width: 90%;
+    }
+
+    .cuadro input{
+        border: 1px solid white;
+        background-color: white;
+        font-family: 'Roboto';
+        font-size: 0.8em;
+        font-weight: bold;
+        width: 65%;
+        margin-left:0;
+        outline:none;
+        box-shadow: none;
+        
+    }
+
+    .cuadro p {
+        background-color: white;
+    }
+}
+
+@media (min-width:600px) and (max-width:899px){
+
+    .container{
+        width:50%;
+    }
+
+}
+
+@media (min-width:900px) and (max-width:1099px){
+
+    .container{
+        width:40%;
+    }
+
+}
+
+
+
